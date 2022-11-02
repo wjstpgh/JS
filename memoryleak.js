@@ -16,5 +16,4 @@ element.addEventListener('click', onClick);
 //setInterval
 setInterval(() => {
   //객체 참조
-
 })
