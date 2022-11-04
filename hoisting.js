@@ -14,7 +14,7 @@ function say() {
   console.log('Hi');
 }
 
-//num = undefined < hoisting
+//num = undefined << hoisting
 console.log(num);//undefined
 var num = 1;
 console.log(num);//1
