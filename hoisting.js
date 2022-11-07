@@ -21,24 +21,24 @@ console.log(num);//1
 var num = 2;
 console.log(num);//2
 
-// a();
+a();
 
-function a(){
+function a() {
   console.log('yes');
 }
 
-function a(){
+function a() {
   console.log('no');
 }
 
-var food='rice';
+var food = 'rice';
 
-var eat=function(){
-  console.log('old eat '+food);
+var eat = function () {
+  console.log('old eat ' + food);
 
-  var food='noodle';
+  var food = 'noodle';
 
-  console.log('new eat '+food);
+  console.log('new eat ' + food);
 };
 
 eat();
