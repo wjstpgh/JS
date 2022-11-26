@@ -1,6 +1,6 @@
 'use strict'
 function weird() {
-  var height = 50;
+  height = 50;//when strict isnt work
   return height
 }
 
