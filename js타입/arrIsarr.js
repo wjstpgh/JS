@@ -12,6 +12,3 @@ Array.isArray({
   1: "2",
   2: "3",
 });
-
-arrIsarr
-배열과 객체의 차이는?
