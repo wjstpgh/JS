@@ -40,6 +40,22 @@ const obj={
   property:1
 }
 
+console.log(obj.property)//1
+// console.log(property)//err
+
 //JS built in Object?
 Number()
-Boolean(true).toString()
+
+var num=1;
+var numObj=new Number(1);
+
+console.log(num);
+console.log(numObj);
+
+console.log(typeof num);
+console.log(typeof numObj);
+
+console.log(num.valueOf());
+console.log(numObj.valueOf());
+
+Boolean(true).toString();
