@@ -7,7 +7,7 @@ function Person(name, age) {
 const person1 = new Person("Xavier", 55);
 console.log(person1);
 
-//impolicit binding
+//implicit binding
 const person = {
   name: "Karen",
   age: 40,
