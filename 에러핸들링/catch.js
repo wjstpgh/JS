@@ -1,5 +1,4 @@
 //how catch err in program
-
 function fail() {
   try {
     consol.log("just do");
