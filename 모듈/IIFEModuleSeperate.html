@@ -13,9 +13,12 @@
     var script2=(function($,globalNum){
       $('h1').click(function(){
         $('h1').hide()
+        console.log('jquery hide 이벤트 발동!')
+        console.log(globalNum)
       })
-      <!-- $=undefined -->
+      //$=undefined
       globalNum='0'
+      
     })(jQuery,globalNum)
   </script>
   
